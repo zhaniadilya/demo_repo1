@@ -1,9 +1,16 @@
 public classs demo{
     public static void main(String[] args){
         System.out.println("Salem,Alem!");
+
+        int a = 12;
+        double res;
+
+        res = kvadrat(a);
+
+        System.out.print(res);
     }
 
-    public static void title() {
-        System.out.println("TITLE");
+    public static double kvadrat(int a) {
+        return Math.pow(a, 2);
     }
 }
