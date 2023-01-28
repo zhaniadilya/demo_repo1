@@ -1,8 +1,10 @@
 public classs demo{
     public static void main(String[] args){
+
         System.out.println("Salem,Alem!");
 
         int a = 12;
+
         double res;
 
         res = kvadrat(a);
