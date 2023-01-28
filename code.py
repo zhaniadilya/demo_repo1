@@ -3,11 +3,12 @@ import math
 # Salem, Alem сөзін шығару
 print("Salem, Alem!")
 a = 12
-res = kvadrat(a)
+b = 2
+res = max_tabu(a)
 print('a = ', res) 
 
 def title():
     print("TITLE")
 
-def kvadrat(a):
-    return math.pow(a, 2) 
+def max_tabu(a):
+    return math.max(a, b) 
