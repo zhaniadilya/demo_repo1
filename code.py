@@ -29,11 +29,11 @@ else:
     print("a = b nemese a < b")"""
 
 #4-tapsyrma. 1-den n-ge deiyn kartalar bar. Arasynan bir karta zhogalyp qaldy. Osy kartanyn nomerin anyqtau qazhet
-"""n = int(input('N = '))
+n = int(input('N = '))
 k = 0
 for i in range(1, n+1):
     k+=i
 print("Bar kartalardyn manin engiziniz: ")
 for i in range(n-1):
     k -= int(input())
-print("Zhogalgan karta: ", k)"""
+print("Zhogalgan karta: ", k)
