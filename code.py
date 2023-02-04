@@ -31,7 +31,6 @@ else:
 #4-tapsyrma
 n = int(input('N = '))
 k = 0
-num = 0 
 for i in range(1, n+1):
     k+=i
 print("Bar kartalardyn manin engiziniz: ")
