@@ -1,0 +1,18 @@
+dates = input("Dates: ").split()
+
+k = len(tuple(dates))
+print('\nDates: ')
+for i in range(k):
+    print(dates)
+print("--------------------")
+set1 = set('Hello World!')
+set2 = set('Hi World!')
+res1 = set1.union(set2)
+print(res1)
+print("--------------------")
+res2 = set1.symmetric_difference(set2)
+print(res2)
+print("--------------------")
+res3 = set1.issuperset(set2)
+print(res3)
+print("--------------------")
