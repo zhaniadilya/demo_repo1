@@ -38,7 +38,7 @@ stud_class.sort(key=lambda x: x[1])
 
 for i in stud_class:
     print(i[0], i[1])
-'''
+
 #2-tapsyrma
 def students(name):
     student_grade = [
@@ -52,9 +52,9 @@ def students(name):
             return i[2]
 name = input("Student's name: ")            
 print(students(name)) 
-
+'''
 #3-tapsyrma
-"""my_list = []
+my_list = []
 
 print("Enter the integers (enter 0 to end the list): ")
 val = int(input())
@@ -67,7 +67,7 @@ my_list.sort()
 
 print("Sorted list in ascending order: ")
 for num in my_list:
-    print(num)"""  
+    print(num)
 
 #4-tapsyrma
 """import random

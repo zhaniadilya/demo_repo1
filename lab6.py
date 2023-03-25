@@ -3,12 +3,13 @@
 cort1=()
 cort2=()
 cort3=()
-for i in range(10):
-    cort1 = tuple(random.randint(0, 5))
-    cort2 = tuple(random.randint(-5, 0))
-cort3=cort1+cort2
-res = cort3.count(0)
-print(cort3, f'0-der sany: res')'''
+def cort(cort1, cort2, cort3):
+    for i in range(10):
+        cort1 = tuple(random.randint(0, 5))
+        cort2 = tuple(random.randint(-5, 0))
+    cort3=cort1+cort2
+    res = cort3.count(0)
+    print(cort3, f'0-der sany: res')'''
 
 #2-tapsyrma
 '''cort = (7, (0.12, (('x+i*y'), ("string", ()))))
@@ -32,15 +33,15 @@ print("-----------------------------------")
 print(f"Expenses for the week: {round(res)}")'''
 
 #4-tapsyrma
-"""names = input("Studentter: ").split()
+names = input("Studentter: ").split()
 cort = tuple(names)
 print("-ва-men ayaqtalatyn studentter tizimi: ")
 for name in cort:
     if 'ва' in name:
-        print(name, end=" ")"""
+        print(name, end=" ")
 
 #5-tapsyrma
-text_kir = input("Kirilica soz: ")
+'''text_kir = input("Kirilica soz: ")
 
 kir_arip = {"а": "a", "ә": "a", "б": "b", "в": "v", "г": "g", "ғ": "g", "д": "d", "ж": "j", "з": "z", "к": "k", "қ": "k", "л": "l", "м": "m", "н": "n", "т": "t", "ұ": "u", "с": "s", "ф": "f", "ы": "y", "п": "p", "р": "r", "о": "o", "ү": "u", "і": "i", "и": "i", "й": "i", "у": "u", "е": "e", "ю": "u", "я": "ya", "ш": "sh",}
 
@@ -50,4 +51,4 @@ for char in text_kir:
         text_lat += kir_arip[char]
     else:
         print("Qaita engiziniz!")
-print(text_lat)
+print(text_lat)'''
