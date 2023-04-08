@@ -4,6 +4,8 @@ while True:
     if not text:
         break
     name, comment = text.split(": ")
-    comments[name] = None
 
-print(len(comments))
+    comments[name] = list(comments.values())
+
+print(comments)
+print("Comments number: ", len(comments))

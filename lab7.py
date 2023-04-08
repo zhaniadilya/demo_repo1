@@ -18,7 +18,7 @@ for i in rivers:
     print(i, '  ---  ', rivers[i])
 print('------------------------------------------------------------')
 river = input('Enter river name: ')
-print('Result of the get method: ', rivers.get(river, 'This river not found!'))
+print(river in rivers)
 print('------------------------------------------------------------')
 river_key = input('Enter river name: ')
 river_city = input('Enter this river''s country: ' )

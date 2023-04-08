@@ -10,6 +10,6 @@ for i in range(n):
 
 ai_demalys = input("Aidy engiziniz: ")
 if ai_demalys in demalystar:
-    print('{} demaldy - {}'.format(" ".join(ai_demalys, demalystar[ai_demalys])))
+    print('{} demaldy - {}'.format(" ".join(demalystar[ai_demalys]), ai_demalys))
 else:
     print()

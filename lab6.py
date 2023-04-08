@@ -33,12 +33,12 @@ print("-----------------------------------")
 print(f"Expenses for the week: {round(res)}")'''
 
 #4-tapsyrma
-names = input("Studentter: ").split()
+'''names = input("Studentter: ").split()
 cort = tuple(names)
 print("-ва-men ayaqtalatyn studentter tizimi: ")
 for name in cort:
     if 'ва' in name:
-        print(name, end=" ")
+        print(name, end=" ")'''
 
 #5-tapsyrma
 '''text_kir = input("Kirilica soz: ")
