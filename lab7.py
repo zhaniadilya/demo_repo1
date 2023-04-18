@@ -29,3 +29,5 @@ print(rivers)
 print("Hello Aiym!")
 #ответ от Aiym
 print("Hello, Adi!")
+#вопрос от Aiym
+print("How are you?")
