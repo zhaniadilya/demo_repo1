@@ -24,3 +24,6 @@ river_key = input('Enter river name: ')
 river_city = input('Enter this river''s country: ' )
 rivers[river_key] = river_city
 print(rivers)
+
+#2-tapsyrma
+print("Hello Aiym!")
