@@ -27,3 +27,5 @@ print(rivers)
 
 #2-tapsyrma
 print("Hello Aiym!")
+#ответ от Aiym
+print("Hello, Adi!")
