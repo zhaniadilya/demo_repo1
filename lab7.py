@@ -29,5 +29,9 @@ print(rivers)
 print("Hello Aiym!")
 #ответ от Aiym
 print("Hello, Adi!")
+<<<<<<< HEAD
 #вопрос от Aiym
+=======
+#question
+>>>>>>> myBranch
 print("How are you?")
